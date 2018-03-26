@@ -1,0 +1,55 @@
+$charcoal-black: #333;
+$pebble-grey: #ccc;
+$graphite-grey: #888;
+$dark-costal-blue: #1872AD;
+
+
+.charcoal-black{
+  color:$charcoal-black;
+}
+.pebble-grey{
+  color:$pebble-grey;
+}
+.graphite-grey{
+  color:$graphite-grey;
+}
+.dark-costal-blue{
+  color:$dark-costal-blue;
+}
+
+
+.property-card{
+  margin:0 48px 48px 0;
+  max-width:230px;
+  > *{
+    margin:0;
+  }
+  img{
+    border:1px solid $pebble-grey;
+    width:230px;
+    height:150px;
+    margin-bottom:8px;
+  }
+  .headline-2{
+    font-size:18px;
+    font-family:'Open Sans';
+    font-weight:700;
+    line-height:22px;
+    margin:0;
+  }
+  .body-1{
+    font-size:16px;
+    font-family:'Open Sans';
+    font-weight:normal;
+    line-height:22px;
+    margin:0;
+  }
+  .sub-heading{
+    font-size:14px;
+    font-family: 'Open Sans';
+    font-weight:700;
+    line-height:20px;
+    letter-spacing:.4px;
+    text-transform:uppercase;    
+  }
+}
